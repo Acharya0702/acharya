@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>SnakeMaster</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score">Score:0</span>
+            <select id="mySelect" tabindex="-1" onchange="handleSelectChange(this)">
+                <option value="">Select Level</option>
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+                <option value="5">Level 5</option>
+            </select>
+            <span class="high-score">HighScore:0</span>
+        </div>
+        <div class="play-board"></div>
+        <div class="controls">
+            <i data-key="ArrowLeft" class="fa fa-solid fa-arrow-left-long"></i>
+            <i data-key="ArrowUp" class="fa fa-solid fa-arrow-up-long"></i>
+            <i data-key="ArrowDown" class="fa fa-solid fa-arrow-down-long"></i>
+            <i data-key="ArrowRight" class="fa fa-solid fa-arrow-right-long"></i>
+        </div>
+    </div>
+</body>
+
+</html>
