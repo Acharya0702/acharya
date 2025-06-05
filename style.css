@@ -52,3 +52,8 @@
     font-size: 4vmin;
     color: white;
 }
+.scrollable-div{
+    scroll-behavior: smooth;
+    height: 450px;
+    overflow-y: scroll;
+}
