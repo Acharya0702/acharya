@@ -57,3 +57,14 @@
     height: 450px;
     overflow-y: scroll;
 }
+.header-color{
+    background-color: #68a697;
+    color: white;
+}
+.subheader-color{
+    background-color: #5c5f70;
+}
+
+.keyword-color{
+    color: #707176;
+}
