@@ -7,7 +7,7 @@
     --top-color: #c09467;
 }
 .cover{
-    background: rgba(100, 100, 0, 0.5) url("background.jpg");
+    background: rgba(100, 100, 0, 0.5) url("static/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,6 @@
     display: flex;
     color: white;
     font-family: 'Times New Roman';
-    padding: 5% 0 0 10%;
     justify-content: end;
 }
 .names{
@@ -42,14 +41,11 @@
 .socialmedia{
     display: flex;
     justify-content: center;
-    margin: 10%;
-    padding: 10%;
+    padding-left: 10%;
 }
 .connect{
     margin: 2vmin;
-}
-.fa{
-    font-size: 4vmin;
+    font-size: 7vmin;
     color: white;
 }
 .scrollable-div{
@@ -59,12 +55,18 @@
 }
 .header-color{
     background-color: #68a697;
-    color: white;
+    color: black;
 }
 .subheader-color{
     background-color: #5c5f70;
+    color: black;
+    width: fit-content;
 }
 
 .keyword-color{
     color: #707176;
+}
+.footer-color{
+    background-color: #a0cabf;
+    color: black;
 }
